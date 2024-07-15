@@ -21,7 +21,9 @@ setup(
                       'cython',
                       'pymongo',
                       'tqdm',
-                      'python-decouple'],
+                      'python-decouple',
+                      'multiprocess'
+                      ],
 
     package_data={'pyirt': ["*.pyx"]},
 
